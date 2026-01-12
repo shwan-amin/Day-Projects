@@ -1,0 +1,186 @@
+/* HTML, Body and Containers */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #252525;
+}
+
+.container {
+    width: 360px;
+    height: 600px;
+    background-color: whitesmoke;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+/* Section 1: Header */
+#help {
+    display: none;
+    position: fixed;
+    width: 300px;
+    height: 500px;
+    background-color: #FBC02D;
+    border-radius: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+#help h2 {
+    text-align: center;
+}
+
+#help p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+#help-btn {
+    position: absolute;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    background-image: url("img/help.png");
+    width: 25px;
+    height: 25px;
+    top: 10px;
+    left: 325px;
+    bottom: 0;
+    right: 0;
+}
+
+#instructions-display {
+    position: fixed;
+}
+
+#help-close-btn {
+    font-weight: bold;
+    padding: 0px 7px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    border: none;
+    top: 5px;
+    right: 5px;
+    position: absolute;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+}
+
+#fruits-display {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+/* Section 2: Home Page */
+#home-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#player-size-label {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#player-size-input {
+    border: none;
+    margin-bottom: 10px;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 12px;
+    background-color: #FF6F00;
+    color: white;
+}
+
+#player-size-input:focus, #player-size-input:hover {
+    outline: solid 5px white;
+    background-color: #FBC02D;
+}
+
+#start-btn {
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 12px;
+    font-weight: bolder;
+    background-color: #FF6F00;
+    color: whitesmoke;
+}
+
+#start-btn:hover {
+    background-color: #FBC02D;
+}
+
+#start-btn:active {
+    background-color: #FBC02D;
+}
+
+/* Section 3: Game Page */
+#game {
+    background-color: whitesmoke;
+    border: solid 3px black;
+    border-radius: 12px;
+    width: 300px;
+    height: 520px;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.player-card {
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    width: 280px;
+    height: 45px;
+    border: solid 3px black;
+    color: black;
+    font-size: 18px;
+}
+
+#end-btn {
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 12px;
+    font-weight: bolder;
+    background-color: #FBC02D;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 10px;
+}
+
+#end-btn:hover {
+    background-color: #FF6F00;
+}
+
+#end-btn:active {
+    background-color: #ff6f00;
+}

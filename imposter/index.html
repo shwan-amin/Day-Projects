@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imposter Word Game</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <button type="button" id="help-btn"></button>
+
+        <section id="help">
+            <h2>Instructions</h2>
+            <p>
+                Before playing, you must enter the number of players, which is a minimum of 3,
+                and a maximum of 10. 
+                <br><br>
+                Playing:<br>
+                1. Assign each person playing a player number.<br>
+                2. Each person must take the device and read the card which will reveal their fruit.<br>
+                3. There will be 1 imposter who will be told that they are imposter on their card.<br>
+                4. The group then must have players take turns, saying a single word to hint at what the fruit is.<br>
+                5. The group decides how many rounds must be played before they decide to vote.<br>
+                <br><br>
+                Voting: <br>
+                1. If a majority vote is on the imposter, then the civilians win! <br>
+                2. If the imposter is voted out, but they correctly guess the fruit, they win! <br>
+                3. If the civilians wrongly vote on another civilian, then the imposter wins! <br><br>
+
+                Good Luck!
+            </p>
+            <button type="button" id="help-close-btn">X</button>
+        </section>
+
+        <header>
+            <h1 class="title">Fruit Imposter</h1>
+            <div id="fruits-display"></div>
+        </header>
+
+        <section id="game">
+            <button type="button" id="end-btn">END</button>
+        </section>
+
+        <section id="home-page">
+            <label for="player-size-input" id="player-size-label">Enter the number of players</label>
+            <input 
+            type="text" 
+            id="player-size-input"
+            min="3"
+            max="8"
+            >
+            <button type="submit" id="start-btn">START</button>
+        </section>
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+
+</html>
