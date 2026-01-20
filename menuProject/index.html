@@ -1,0 +1,82 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Smythe&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <div id="header-text">
+                    <h1>Shwan's Diner</h1>
+                    <h2>The best burgers and pizzas in town.</h2>
+                </div>
+            </header>
+
+            <div class="container user">
+                <section class="items">
+
+                    <div class="item" id="pizza">
+                        <p class="item-emoji">🍕</p>
+
+                        <div class="items-text">
+                            <h3 class="item-title">Pizza</h3>
+                            <h4 class="item-desc">pepperoni, mozarella, tomato sauce</h4>
+                            <p class="item-price">$18</p>
+                            <button class="item-purchase-btn" type="button" data-pizza="buy">+</button>
+                        </div>
+                    </div>
+
+                    <div class="item" id="hamburger">
+                        <p class="item-emoji">🍔</p>
+
+                        <div class="items-text">
+                            <h3 class="item-title">Hamburger</h3>
+                            <h4 class="item-desc">wagyu beef patty, onion rings, tomato, lettuce</h4>
+                            <p class="item-price">$12</p>
+                            <button class="item-purchase-btn" type="button" data-hamburger="buy">+</button>
+                        </div>
+                    </div>
+
+                    <div class="item" id="beer">
+                        <p class="item-emoji">🍺</p>
+                        
+                        <div class="items-text">
+                            <h3 class="item-title">Beer</h3>
+                            <h4 class="item-desc">carlton dry, corona light, asahi</h4>
+                            <p class="item-price">$7</p>
+                            <button class="item-purchase-btn" type="button" data-beer="buy">+</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="checkout">
+                    <h3>Your Order</h3>
+
+                    <div id="order-list"></div>
+
+                    <div id="order-total"></div>
+
+                    <button id="order-submit-btn" data-submit-btn="submit">Complete Order</button>
+                </section>
+
+                <section id="payment">
+                    <h2>Enter Card Details</h2>
+                    <form id="payment-form">
+                        <input class="payment-input" id="name-input" placeholder="Enter your name" required>
+                        <input class="payment-input" id="card-input" placeholder="Enter card number" required>
+                        <input class="payment-input" id="cvv-input" placeholder="Enter CVV" required>
+                        <button id="pay-btn" type="submit" data-pay-btn="submit">Pay</button>
+                    </form>
+                </section>
+
+                <section id="success">
+                    
+                </section>
+            </div>
+        </div>
+	    <script src="main.js" module></script>
+    </body>
+</html>
