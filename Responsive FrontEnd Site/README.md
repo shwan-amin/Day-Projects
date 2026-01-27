@@ -1,19 +1,7 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+This site was a Scrimba assigned project where a reponsive blog site had to be made. This site was to practice new front-end CSS design skills such as using grid to layout different elements on the body. It also made me enforce new techniques for responsive design.
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+Things I learned/enforced:
+- Using rem, em and fr units
+- Applying display grid
+- Using media queries for different screen widths
+- Prioritising mobile design first and working up to desktop views.
