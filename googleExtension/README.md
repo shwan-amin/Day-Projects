@@ -6,3 +6,4 @@ Specifically practiced skills of:
 - Using local storage
 - Learning the setTimeout function
 
+<img width="446" height="439" alt="Screenshot 2026-01-29 at 12 16 50 pm" src="https://github.com/user-attachments/assets/acb18194-4100-4524-a1a3-41470017d72d" />
