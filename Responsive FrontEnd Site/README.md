@@ -5,3 +5,7 @@ Things I learned/enforced:
 - Applying display grid
 - Using media queries for different screen widths
 - Prioritising mobile design first and working up to desktop views.
+
+<img width="727" height="603" alt="Screenshot 2026-01-29 at 12 20 17 pm" src="https://github.com/user-attachments/assets/e3d281f0-e85f-4294-9fb9-1d3335d36313" />
+
+<img width="1290" height="583" alt="Screenshot 2026-01-29 at 12 20 32 pm" src="https://github.com/user-attachments/assets/e7fc2595-ba12-41d2-aa70-e6599833027f" />
