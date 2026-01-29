@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Color Scheme Generator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <form class="inputs-form" id="inputs-form">
+            <input id="seed-col-input" type="color">
+            <select id="mode-select">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome Dark</option>
+                <option value="monochrome-light">Monochrome Light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic Complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button id="submit-btn" type="submit">Get color scheme</button>
+        </form>
+
+        <div class="color-display-div" id="color-display-div">
+            <div class="col" id="col-1">
+                <div class="col-display" id="display-1"></div>
+                <p class="display-txt" id="txt-1">#F55A5A</p>
+            </div>
+
+            <div class="col" id="col-2">
+                <div class="col-display" id="display-2"></div>
+                <p class="display-txt" id="txt-2">#2B283A</p>
+            </div>
+
+            <div class="col" id="col-3">
+                <div class="col-display" id="display-3"></div>
+                <p class="display-txt" id="txt-3">#FBF3AB</p>
+            </div>
+
+            <div class="col" id="col-4">
+                <div class="col-display" id="display-4"></div>
+                <p class="display-txt" id="txt-4">#AAD1B6</p>
+            </div>
+
+            <div class="col" id="col-5">
+                <div class="col-display" id="display-5"></div>
+                <p class="display-txt" id="txt-5">#A626D3</p>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
