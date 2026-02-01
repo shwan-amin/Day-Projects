@@ -1,5 +1,5 @@
 // API KEY
-const API_KEY = "3b315aaf";
+const API_KEY = "an API key";
 
 // DATA - LOAD FROM LOCALSTORAGE
 let movieData = JSON.parse(localStorage.getItem('movieData')) || [];
