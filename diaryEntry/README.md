@@ -1,16 +1,10 @@
-# React + Vite
+Reactive Diary ☢️, a quick project made so I can practice working with the React framework. This quick front-end only site allows a user to upload a diary entry where they can edit the title and text, and is all served on a 
+single page. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project helped me practice features such as:
+- React State
+- Building components
+- Sharing states amongst parents to children
+- Reusable design!
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+P.S all CSS styling was done by LLM's, this project was not to practice styling, moreso the fundamentals of app building using frameworks. 
