@@ -8,3 +8,4 @@ This project helped me practice features such as:
 - Reusable design!
 
 P.S all CSS styling was done by LLM's, this project was not to practice styling, moreso the fundamentals of app building using frameworks. 
+
