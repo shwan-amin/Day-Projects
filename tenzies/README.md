@@ -1,16 +1,10 @@
-# React + Vite
+Tenzies is a frontend mini-game made with React where the user has to roll 10 dice until all 10 match (they can click on a die to freeze its value).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was made in order to:
+- Practice useState and handling multiple states
+- Game logic using React
+- React logic and structure
 
-Currently, two official plugins are available:
+(ALL CSS WAS WRITTEN BY AN LLM)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="919" height="547" alt="Screenshot 2026-03-18 at 7 28 11 pm" src="https://github.com/user-attachments/assets/8c8d1cc2-1fb9-4c3e-b527-9a0803b9393d" />
