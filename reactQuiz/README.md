@@ -12,4 +12,6 @@ This is the SCRIMBA design template that had to be replicated:
 <img width="934" height="301" alt="Screenshot 2026-03-19 at 3 46 06 pm" src="https://github.com/user-attachments/assets/509b43de-0c31-4386-a69f-26922f802443" />
 
 And here is my final iteration:
+<img width="1510" height="754" alt="Screenshot 2026-03-19 at 3 48 30 pm" src="https://github.com/user-attachments/assets/8715ecc4-bc73-48d6-8787-525e5241d9c3" />
+
 <img width="1512" height="747" alt="Screenshot 2026-03-19 at 3 47 27 pm" src="https://github.com/user-attachments/assets/35a33ee0-dfad-48fd-a389-97fa89b3c2b5" />
