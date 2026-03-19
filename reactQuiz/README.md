@@ -1,16 +1,15 @@
-# React + Vite
+This was apart of the Scrimba React course capstone project to help me certify my knowledge on React fundamentals. It involves fetching questions from the Open Trivia DB and is a general knowledge quiz where the user selects multiple choice answers for 5 questions and can submit them. The user's score is then tracked the further they play. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Open Trivia DB: 
+https://opentdb.com/api_config.php
 
-Currently, two official plugins are available:
+This project helped me to better understand:
+- React States, having multiple and handling them across parent-child components
+- useState, and making API calls only when needed
+- Mapping JS objects into React components
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This is the SCRIMBA design template that had to be replicated:
+<img width="934" height="301" alt="Screenshot 2026-03-19 at 3 46 06 pm" src="https://github.com/user-attachments/assets/509b43de-0c31-4386-a69f-26922f802443" />
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+And here is my final iteration:
+<img width="1512" height="747" alt="Screenshot 2026-03-19 at 3 47 27 pm" src="https://github.com/user-attachments/assets/35a33ee0-dfad-48fd-a389-97fa89b3c2b5" />
